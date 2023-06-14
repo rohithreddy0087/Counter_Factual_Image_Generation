@@ -1,5 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
+import torchvision
 
 vgg_layer_count = 11
 vgg_configs = {11: [64, 'M', 128, 'M', 256, 256, 'M', 512, 512, 'M', 512, 512, 'M'],
@@ -54,24 +55,11 @@ class VGG(nn.Module):
         return x, h
 
 
-class CNN(nn.Module):
-    def __init__(self,input_ch=3):
-        super(CNN, self).__init__()
-        self.conv1 = nn.Conv2d(input_ch, 32, kernel_size=5)
-        self.conv2 = nn.Conv2d(32, 32, kernel_size=5)
-        self.conv3 = nn.Conv2d(32,64, kernel_size=5)
-        self.fc1 = nn.Linear(4*4*64, 256)
-        self.fc2 = nn.Linear(256, 10)
+class ResNet35(nn.Module):
+    def __init__(self, num_classes=39):
+        super(ResNet35, self).__init__()
+        self.resnet = torchvision.models.resnet34(pretrained=True)
+        self.resnet.fc = nn.Linear(512, num_classes)
 
     def forward(self, x):
-        x = F.relu(self.conv1(x))
-        #x = F.dropout(x, p=0.5, training=self.training)
-        x = F.relu(F.max_pool2d(self.conv2(x), 2))
-        x = F.dropout(x, p=0.5, training=self.training)
-        x = F.relu(F.max_pool2d(self.conv3(x),2))
-        x = F.dropout(x, p=0.5, training=self.training)
-        x = x.view(-1,4*4*64 )
-        x = F.relu(self.fc1(x))
-        x = F.dropout(x, training=self.training)
-        x = self.fc2(x)
-        return x #F.log_softmax(x, dim=1)
+        return self.resnet(x)

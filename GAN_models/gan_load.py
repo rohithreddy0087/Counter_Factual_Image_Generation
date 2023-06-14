@@ -1,9 +1,6 @@
-# +
-import json
-import numpy as np
+
 import torch
 from torch import nn
-from GAN_models.gan_with_shift import gan_with_shift
 
 import legacy
 import dnnlib
@@ -13,15 +10,7 @@ try:
     from GAN_models.StyleGAN2.model import Generator as StyleGAN2Generator
 except Exception as e:
     print('StyleGAN2 load fail: {}'.format(e))
-    
-#try:
-#    from models.StyleGAN2ADA.network import Generator as StyleGAN2ADAGenerator
-#except Exception as e:
-#    print('StyleGAN2ADA load fail: {}'.format(e))
-# -
 
-
-# +
 class StyleGAN2Wrapper(nn.Module):
     def __init__(self, g):
         super(StyleGAN2Wrapper, self).__init__()

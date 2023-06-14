@@ -1,0 +1,158 @@
+2023-06-08 14:31:56,054 [MainThread  ] [DEBUG]  cuda:0
+2023-06-08 14:31:56,366 [MainThread  ] [DEBUG]  Cuda False
+2023-06-08 14:37:10,601 [MainThread  ] [DEBUG]  cuda:0
+2023-06-08 14:37:10,873 [MainThread  ] [DEBUG]  Cuda False
+2023-06-08 15:01:50,056 [MainThread  ] [DEBUG]  cuda:0
+2023-06-08 15:01:50,076 [MainThread  ] [DEBUG]  Cuda False
+2023-06-08 21:29:20,146 [MainThread  ] [DEBUG]  cuda:0
+2023-06-08 21:29:20,185 [MainThread  ] [DEBUG]  Cuda True
+2023-06-08 21:50:40,272 [MainThread  ] [DEBUG]  cuda:0
+2023-06-08 21:50:40,298 [MainThread  ] [DEBUG]  Cuda True
+2023-06-08 21:51:03,878 [MainThread  ] [DEBUG]  ['5_o_Clock_Shadow', 'Arched_Eyebrows', 'Attractive', 'Bags_Under_Eyes', 'Bald', 'Bangs', 'Big_Lips', 'Big_Nose', 'Black_Hair', 'Blond_Hair', 'Blurry', 'Brown_Hair', 'Bushy_Eyebrows', 'Chubby', 'Double_Chin', 'Eyeglasses', 'Goatee', 'Gray_Hair', 'Heavy_Makeup', 'High_Cheekbones', 'Male', 'Mouth_Slightly_Open', 'Mustache', 'Narrow_Eyes', 'No_Beard', 'Oval_Face', 'Pale_Skin', 'Pointy_Nose', 'Receding_Hairline', 'Rosy_Cheeks', 'Sideburns', 'Smiling', 'Straight_Hair', 'Wavy_Hair', 'Wearing_Earrings', 'Wearing_Hat', 'Wearing_Lipstick', 'Wearing_Necklace', 'Wearing_Necktie', 'Young']
+2023-06-08 21:51:03,878 [MainThread  ] [DEBUG]  trained_weights/shift_in_w_Hat_Multi_3_19_30_34_38_0.050.pt
+2023-06-08 21:51:03,879 [MainThread  ] [DEBUG]  []
+2023-06-09 16:26:17,593 [ScriptRunner] [DEBUG]  trained_weights/shift_in_w_Bald_Male_Smile_Young_Multi_3_19_30_38_0.050.pt
+2023-06-09 16:26:17,601 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:28:50,954 [ScriptRunner] [DEBUG]  trained_weights/shift_in_w_Bald_Male_Smile_Young_Multi_3_19_30_38_0.050.pt
+2023-06-09 16:28:50,955 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:29:03,594 [ScriptRunner] [DEBUG]  trained_weights/shift_in_w_Bald_Male_Smile_Young_Multi_3_19_30_38_0.050.pt
+2023-06-09 16:29:03,594 [ScriptRunner] [DEBUG]  trained_weights/shift_in_w_Bald_Male_Smile_Young_Multi_3_19_30_38_0.050.pt
+2023-06-09 16:29:03,594 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:29:03,594 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:31:46,211 [ScriptRunner] [DEBUG]  trained_weights/shift_in_w_Bald_Male_Smile_Young_Multi_3_19_30_38_0.050.pt
+2023-06-09 16:31:46,211 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:34:06,500 [ScriptRunner] [DEBUG]  trained_weights/shift_in_w_Bald_Male_Smile_Young_Multi_3_19_30_38_0.050.pt
+2023-06-09 16:34:06,500 [ScriptRunner] [DEBUG]  trained_weights/shift_in_w_Bald_Male_Smile_Young_Multi_3_19_30_38_0.050.pt
+2023-06-09 16:34:06,501 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:34:06,501 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:34:23,903 [ScriptRunner] [DEBUG]  Traget variables tensor([[True, True]], device='cuda:0')
+2023-06-09 16:34:23,903 [ScriptRunner] [DEBUG]  Traget variables tensor([[True, True]], device='cuda:0')
+2023-06-09 16:37:40,893 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:37:48,624 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:37:48,624 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:37:52,174 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False,  True]], device='cuda:0')
+2023-06-09 16:37:52,174 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False,  True]], device='cuda:0')
+2023-06-09 16:37:52,410 [ScriptRunner] [DEBUG]  Traget variables tensor([[1, 0, 0, 1]], device='cuda:0', dtype=torch.int32)
+2023-06-09 16:37:52,410 [ScriptRunner] [DEBUG]  Traget variables tensor([[1, 0, 0, 1]], device='cuda:0', dtype=torch.int32)
+2023-06-09 16:40:49,387 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:40:49,387 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:40:53,153 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:40:53,153 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:42:09,672 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:42:09,672 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:42:09,672 [ScriptRunner] [DEBUG]  Loading previously trained weights ...
+2023-06-09 16:42:22,987 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 16:42:22,987 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 16:42:22,987 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 16:42:23,041 [ScriptRunner] [DEBUG]  Traget variables tensor([[1, 1, 1, 0]], device='cuda:0', dtype=torch.int32)
+2023-06-09 16:42:23,041 [ScriptRunner] [DEBUG]  Traget variables tensor([[1, 1, 1, 0]], device='cuda:0', dtype=torch.int32)
+2023-06-09 16:42:23,041 [ScriptRunner] [DEBUG]  Traget variables tensor([[1, 1, 1, 0]], device='cuda:0', dtype=torch.int32)
+2023-06-09 16:58:25,278 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 16:58:25,278 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:03:17,592 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:03:17,592 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:04:36,389 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False,  True, False]], device='cuda:0')
+2023-06-09 17:04:36,389 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False,  True, False]], device='cuda:0')
+2023-06-09 17:04:36,389 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False,  True, False]], device='cuda:0')
+2023-06-09 17:04:36,389 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False,  True, False]], device='cuda:0')
+2023-06-09 17:04:36,389 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False,  True, False]], device='cuda:0')
+2023-06-09 17:04:36,389 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False,  True, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:28,613 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:05:55,019 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:08:37,952 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:14,017 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True, False, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:26,713 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True, False, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:33,242 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
+2023-06-09 17:09:38,102 [ScriptRunner] [DEBUG]  Traget variables tensor([[ True,  True,  True, False]], device='cuda:0')
