@@ -9,3 +9,4 @@ tensorboardX
 seaborn
 ninja
 click
+pytorch-ignite
