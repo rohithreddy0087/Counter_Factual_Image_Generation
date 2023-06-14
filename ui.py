@@ -16,6 +16,8 @@ from GAN_models.dcgan import Generator
 import streamlit as st
 import numpy as np
 
+device = torch.device('cuda:0')
+
 def generate_image():
     if config.gan_model == "DCGAN":
         z = torch.randn(1, config.latent_size, 1, 1, device=device).repeat(4, 1, 1, 1)
