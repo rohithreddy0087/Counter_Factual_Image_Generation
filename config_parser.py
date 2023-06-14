@@ -12,8 +12,8 @@ class ConfigFileparser:
         self.gan_model = parser.get('DEFAULT','GAN_MODEL',fallback="STYLEGAN")
         self.classifier_network = parser.get('DEFAULT','CLASSIFIER_MODEL',fallback="VGG")
         self.shift_predictor_model = parser.get('DEFAULT','SHIFT_PREDICTOR_MODEL',fallback="2")
-        self.subset_labels = parser.get('DEFAULT','SUBSET_LABELS',fallback="3, 19, 30, 38")
-        self.subset_labels = self.subset_labels.split(",")
+        self.subset_labels_str = parser.get('DEFAULT','SUBSET_LABELS',fallback="3, 19, 30, 38")
+        self.subset_labels = [int(i) for i in self.subset_labels_str.split(",")]
 
         self.faithfulness_ratio = float(parser.get('HYPERPARAMETERS','HYPERPARAMETERS',fallback=0.05))
         self.batch_size = int(parser.get('HYPERPARAMETERS','BATCH_SIZE',fallback=4))
@@ -30,8 +30,9 @@ class ConfigFileparser:
         self.classifier_input_size = int(parser.get(self.classifier_network,'CLASSIFIER_INPUT_SIZE',fallback=256))
         self.classifier_input_channel = int(parser.get(self.classifier_network,'CLASSIFIER_INPUT_CHANNEL',fallback=3))
 
-        self.shift_predictor_weight_file = parser.get('SHIFT_PREDICTOR','SHIFT_PREDICTOR_WEIGHT_FILE',fallback='trained_weights/shift_in_w_Bald_Male_Multi_3_19_0.050.pt')
-        self.load_pretrained = parser.get('SHIFT_PREDICTOR','LOAD_PRETRAINED',fallback=True)
+        self.shift_predictor_folder = parser.get('SHIFT_PREDICTOR','SHIFT_PREDICTOR_WEIGHT_FILE',fallback='trained_weights/shift_in_w_Bald_Male_Multi_3_19_0.050.pt')
+        self.shift_predictor_weight_file = self.shift_predictor_folder + self.gan_model + "_" + self.classifier_network + "_" + self.shift_predictor_model + ".pt"
+        self.load_pretrained = parser.getboolean('SHIFT_PREDICTOR','LOAD_PRETRAINED',fallback=True)
 
         log_formatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
         self.logger = logging.getLogger('CounterFactuals')
@@ -44,3 +45,4 @@ class ConfigFileparser:
         self.logger .addHandler(consoleHandler)
 
         self.logger.setLevel(logging.DEBUG)
+        self.logger.debug("%s", self.__dict__)
