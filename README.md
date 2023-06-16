@@ -46,7 +46,52 @@ source myenv/bin/activate
 - Example of a config file:
 ```
 bash
+[DEFAULT]
+CLASS_COUNT = 39
+# DCGAN, STYLEGAN
+GAN_MODEL = STYLEGAN
+# VGG, ResNet
+CLASSIFIER_MODEL = VGG
+#1 => 2 lAYER MLP
+#2 => 2 lAYER MLP WITH DROPOUT
+#3 => 3 lAYER MLP
+#4 => 3 lAYER MLP WITH DROPOUT 
+SHIFT_PREDICTOR_MODEL = 1
+SUBSET_LABELS = 3, 19, 30, 38
+TRAINING_NAME = 'Bald_Male_Smile_Young_Multi'
 
+[HYPERPARAMETERS]
+HYPERPARAMETERS = 0.05
+BATCH_SIZE = 4
+N_STEPS = 100000
+SHIFT_PREDICTOR_LR = 0.00001
+NOISE_SCALE = 0.1
+
+[STYLEGAN]
+GAN_WEIGHT_FILE = GAN_models/trained_weights/stylegan2-ffhq-config-f.pt
+LATENT_SIZE = 512
+GAN_RESOLUTION = 1024
+GAN_OUTPUT_CHANNEL = 3
+
+[DCGAN]
+GAN_WEIGHT_FILE = GAN_models/trained_weights/gen256.pt
+LATENT_SIZE = 500
+GAN_RESOLUTION = 256
+GAN_OUTPUT_CHANNEL = 3
+
+[ResNet]
+CLASSIFIER_WEIGHT_FILE = classifier_models/trained_weights/resnet34_celeba.pth
+CLASSIFIER_INPUT_SIZE = 256
+CLASSIFIER_INPUT_CHANNEL = 3
+
+[VGG]
+CLASSIFIER_WEIGHT_FILE = classifier_models/trained_weights/celebA_MultiLabels_vgg11_classifier.pt
+CLASSIFIER_INPUT_SIZE = 256
+CLASSIFIER_INPUT_CHANNEL = 3
+
+[SHIFT_PREDICTOR]
+LOAD_PRETRAINED = False
+SHIFT_PREDICTOR_WEIGHT_FILE = shift_predictor_models/trained_weights/
 ```
 
 ### Training and Testing
