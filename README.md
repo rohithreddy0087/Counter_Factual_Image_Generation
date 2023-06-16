@@ -44,8 +44,7 @@ source myenv/bin/activate
 - Use the config.ini to choose among different GAN, classifier and Shift Retainer Models
 - Mention the paths to the trained weights correctly
 - Example of a config file:
-```
-bash
+```bash
 [DEFAULT]
 CLASS_COUNT = 39
 # DCGAN, STYLEGAN
