@@ -1,6 +1,12 @@
 # Latent Transformation-Based Counterfactual Image Generation using Neural Networks and GANs
 
 This project focuses on the generation of counterfactual images, which are images that represent alternative realities by altering object appearance or other attributes. By leveraging advancements in deep generative models, our goal is to produce high-quality counterfactual images that are visually similar to the original images while incorporating desired changes. The generated counterfactual images have the potential to enhance applications such as image editing and explainable AI, providing valuable insights and explanations for deep networks.
+## Demo
+
+https://github.com/rohithreddy0087/Counter_Factual_Image_Generation/assets/51110057/555c5477-9794-4d59-a656-2842ee14d51d
+
+
+A small video demo of the streamlit application
 
 ## Method
 ![CF flowchart](https://github.com/rohithreddy0087/Counter_Factual_Image_Generation/assets/51110057/23ad575f-7a88-4934-b8ed-b385cd703c42)
@@ -105,8 +111,4 @@ streamlit run ui_main.py
 Now, in your browser, open http://localhost:8501/
 
 The test images are present in the test_images folder.
-
-## Demo
-A small video demo of the Instance eraser streamlit application
-
 
