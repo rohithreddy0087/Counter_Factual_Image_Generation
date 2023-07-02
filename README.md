@@ -6,7 +6,7 @@ This project focuses on the generation of counterfactual images, which are image
 https://github.com/rohithreddy0087/Counter_Factual_Image_Generation/assets/51110057/555c5477-9794-4d59-a656-2842ee14d51d
 
 
-A small video demo of the streamlit application
+A small video demonstration of the streamlit application
 
 ## Method
 ![CF flowchart](https://github.com/rohithreddy0087/Counter_Factual_Image_Generation/assets/51110057/23ad575f-7a88-4934-b8ed-b385cd703c42)
